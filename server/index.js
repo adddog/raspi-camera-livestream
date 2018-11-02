@@ -18,8 +18,6 @@ app.get('/', (request, reply) => {
 
 app.post('/stream', (req, reply) => {
   const { body } = req
-  console.log(body)
-  if (!body.data.streamKey) return { message: 'no key' }
   switch (body.action) {
     case 'start':
       {
