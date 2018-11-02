@@ -28,7 +28,7 @@ function ffmpeg() {
           console.log(`Restarting for the ${_counter} time`)
           start(data)
         }, 4000)
-      }, restartStreamValue * 1000)
+      }, restartStreamValue * 60 * 1000)
     }
   }
 
