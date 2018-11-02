@@ -17,11 +17,13 @@
     "web": "/"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "choo": "^6.13.0",
     "choo-async": "^0.1.1",
     "choo-log": "^8.0.0",
     "choo-ssr": "^0.2.1",
     "cors": "^2.8.4",
+    "express": "^4.16.4",
     "fastclick": "^1.0.6",
     "fastify": "^1.12.1",
     "fastify-static": "^0.14.0",
