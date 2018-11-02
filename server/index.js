@@ -13,9 +13,10 @@ fastify.get('/', async (request, reply) => {
 })
 
 fastify.post('/stream', async ({ query, params, headers, body }, reply) => {
+  console.log(body);
   switch (body.action) {
     case 'start': {
-      ffmpeg.start(body.key)
+      ffmpeg.start(body.data)
     }
     break;
     case 'stop': {

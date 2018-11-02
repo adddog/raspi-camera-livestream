@@ -3,9 +3,5 @@ node_modules
 *.log
 .DS_Store
 
-*.min.js
-*.min.css
 *.map
 package-lock.json
-bundle.js
-main.css

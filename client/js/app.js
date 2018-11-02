@@ -34,8 +34,8 @@ function mainView(state, prev, send) {
     class="app w-100 sans-serif bg-white"
     onload=${onload}
     >
-    ${videoForm(state.sites, prev, send)}
-    ${controls(state.sites, prev, send)}
+    ${videoForm(state, prev, send)}
+    ${controls(state, prev, send)}
     </div>
   `
 }
